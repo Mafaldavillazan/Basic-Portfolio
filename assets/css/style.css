@@ -6,20 +6,48 @@
     background-color: lightgrey ;
     width: 100%;
     height: 70px;
+
     position: fixed;
+    position: relative;
 
 }
 
-.menu_top{
+.menu_top_left{
 
-    background-color: lightgrey ;
-    width: 40%;
-    height: 70px;
-    position: relative;
-    top: 0px;
-    right: -100%;
+    background-color: darkgray ;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
 
+    position: absolute;
+    top: -15px;
+    right: 200px;
+}
 
+.menu_top_middle{
+    background-color:darkgrey;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+
+    position: absolute;
+    top: -15px;
+    right: 100px;
+}
+
+.menu_top_right{
+
+    background-color: darkgray ;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+
+    position: absolute;
+    top: -15px;
+    right: 0px;
 }
 
 .head{
@@ -27,13 +55,33 @@
     background-color:plum;
     width: 200px;
     height: 50px;
-    position: fixed;
-    margin-left: 20%;
-    text-align: center;
+    margin-left: 10%;
     padding-top:20px; 
 
+    text-align: center;
+    position: fixed;
+    top: 9px;
+}
+
+.aboutbox{
+    background-color: blueviolet;
+    margin: 30px;
+    padding: 30px;
+    height: 90%;
+    width: 90%;
+}
+
+.parragraph{
+    background-color: blueviolet;
+    font-size: 20px;
 }
 
 .h1{
-    font-size: 10px;
+    background-color: blueviolet;
+    font-size: 40px;
+}
+
+.image{
+    background-color: blueviolet;
+    size: 3%;
 }
