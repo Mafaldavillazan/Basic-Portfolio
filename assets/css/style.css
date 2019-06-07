@@ -1,0 +1,39 @@
+*{
+    background-color:lavender;
+}
+
+.menu{
+    background-color: lightgrey ;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+
+}
+
+.menu_top{
+
+    background-color: lightgrey ;
+    width: 40%;
+    height: 70px;
+    position: relative;
+    top: 0px;
+    right: -100%;
+
+
+}
+
+.head{
+    font-size: 30px;
+    background-color:plum;
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    margin-left: 20%;
+    text-align: center;
+    padding-top:20px; 
+
+}
+
+.h1{
+    font-size: 10px;
+}
