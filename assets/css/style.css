@@ -7,24 +7,24 @@
     height: 70px;
 
     position: fixed;
-    position: relative;
+    top: 0px;
+    z-index: 1;
 
 }
 
 .menu_top_left{
 
-    background-color: darkgray ;
-    
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: white;
-    font-size: 18px;
-
     width: 100px;
-    height: 50px;
-    text-align: center;
+    height: 30px;
+
     padding-top: 20px;
     margin-right: 10%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: gray;
+    font-size: 18px;
+    text-align: center;
 
     position: absolute;
     top: -15px;
@@ -32,18 +32,18 @@
 }
 
 .menu_top_middle{
-    background-color:darkgrey;
+
+    width: 100px;
+    height: 10px;
+
+    padding-top: 20px;
+    margin-right: 10%;
 
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    color: white;
+    color: gray;
     font-size: 18px;
-
-    width: 100px;
-    height: 50px;
     text-align: center;
-    padding-top: 20px;
-    margin-right: 10%;
 
     position: absolute;
     top: -15px;
@@ -52,18 +52,18 @@
 
 .menu_top_right{
 
-    background-color: darkgray ;
+    width: 100px;
+    height: 30px;
+
+    padding-top: 20px;
+    margin-right: 10%;
+
 
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    color: white;
+    color: gray;
     font-size: 18px;
-
-    width: 100px;
-    height: 50px;
     text-align: center;
-    padding-top: 20px;
-    margin-right: 10%;
 
     position: absolute;
     top: -15px;
@@ -86,31 +86,23 @@
 
     text-align: center;
     position: fixed;
-    top: 9px;
-    z-index: 1;
+    top: 0px;
+    z-index: 2;
 }
 
 
-.aboutbox{
-    background-color:darkgray;
-    margin: 30px;
-    padding: 30px;
-    height: 30%;
-    width: 70%;
-    margin-left: 10%;
-}
 
 .imagebox{
     position: relative;
     width: 80%;
     height: 60%;
-
 }
 
 .image {
     width: 200px;
     height: auto;
 }
+
 
 
 .parragraph{
@@ -144,7 +136,7 @@
 
 .portfolio{
     background-color:darkgray;
-    margin: 30px;
+    margin: 150px;
     padding: 30px;
     height: 600px;
     width: 76%;
@@ -153,12 +145,28 @@
     position: relative;
 }
 
+.line-nametag{
+    background-color: blue;
+
+    position: absolute;
+    top: 100px;
+
+    margin: 0px;
+    height: 5px;
+    width: 90%;
+}
+
+
+
+
 .adjust{
     object-fit: cover;
 
     width: 200px;
     height: 120px;
 }
+
+
 
 /*Dividers for positionings*/
 
@@ -205,6 +213,8 @@
     top: 70px;
 }
 
+
+
 /*Contact form style*/
 
 form{
@@ -219,9 +229,9 @@ form{
 }
 
 textarea{
-    height: 150px;
+    height: 300px;
     resize: both;
-    max-height: 300px;
+    max-height: 370px;
     max-width: 100%;
 }
 
@@ -246,12 +256,10 @@ textarea{
 /*Footer information*/
 
 .line{
-    width: 300px;
-    height: 100px;
     background-color: blue;
 
     position: relative;
-    top: 10px;
+    top: 40px;
 
     margin: 0px;
     height: 10px;
@@ -269,7 +277,6 @@ textarea{
     position: relative;
     top: 40px;
     
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 5px;
 }
-
