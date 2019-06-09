@@ -154,8 +154,10 @@
 }
 
 .adjust{
+    object-fit: cover;
+
     width: 200px;
-    height: auto;
+    height: 120px;
 }
 
 /*Dividers for positionings*/
@@ -241,25 +243,33 @@ textarea{
     color: white;
 }
 
+/*Footer information*/
 
+.line{
+    width: 300px;
+    height: 100px;
+    background-color: blue;
 
+    position: relative;
+    top: 10px;
 
-
-
-
-
+    margin: 0px;
+    height: 10px;
+    width: 100%;
+}
 
 .footer{
     background-color: black;
 
     font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
     color: white;
     text-align: center;
 
     position: relative;
-    top: 200px;
+    top: 40px;
     
-    height: 50px;
-    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 5px;
 }
 
