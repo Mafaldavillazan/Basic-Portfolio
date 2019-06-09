@@ -127,7 +127,6 @@
 .parragraph-2{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    margin: 
 }
 
 
@@ -199,6 +198,40 @@
     position: absolute;
     top: 70px;
 }
+
+/*Contact form style*/
+
+form{
+    width: 100%;
+}
+
+.text-box{
+    font-size: 14px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: blue;
+}
+
+textarea{
+    height: 150px;
+    resize: both;
+    max-height: 300px;
+    max-width: 100%;
+}
+
+.text-box-style{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: blue;
+    margin-top: 10px;
+}
+
+.button-style{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: blue;
+}
+
 
 
 
