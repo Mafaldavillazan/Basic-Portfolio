@@ -146,7 +146,7 @@
     background-color:darkgray;
     margin: 30px;
     padding: 30px;
-    height: 400px;
+    height: 600px;
     width: 76%;
     margin-left: 10%;
 
@@ -182,6 +182,10 @@
     left: 300px;
 }
 
+.proyect-5{
+    position: absolute;
+    top: 450px;
+}
 
 .name-tag{
     background-color: blue;
