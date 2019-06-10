@@ -3,6 +3,7 @@
 
 .menu{
     background-color: lightgrey ;
+    list-style-type: none;
 
     width: 100%;
     height: 70px;
@@ -14,6 +15,7 @@
 }
 
 .menu_top_left{
+    text-decoration: none;
 
     border-right-style: solid;
     border-right-width: 1px;
@@ -22,6 +24,7 @@
     height: 20px;
 
     margin: 0px;
+    
 
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -36,6 +39,7 @@
 
 
 .menu_top_middle{
+    text-decoration: none;
 
     border-right-style: solid;
     border-right-width: 1px;
@@ -57,6 +61,7 @@
 }
 
 .menu_top_right{
+    text-decoration: none;
 
     width: 100px;
     height: 30px;
